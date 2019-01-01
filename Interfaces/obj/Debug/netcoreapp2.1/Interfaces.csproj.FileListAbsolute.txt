@@ -1,0 +1,5 @@
+C:\dev\RPS\Interfaces\bin\Debug\netcoreapp2.1\Interfaces.deps.json
+C:\dev\RPS\Interfaces\bin\Debug\netcoreapp2.1\Interfaces.dll
+C:\dev\RPS\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.csproj.CoreCompileInputs.cache
+C:\dev\RPS\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.AssemblyInfoInputs.cache
+C:\dev\RPS\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.AssemblyInfo.cs
