@@ -16,8 +16,11 @@
             throw new NotImplementedException();
         }
 
-        public async Task<Game> Get(int id) => ((IQueryable<Game>) await Task.Run(() => LoadGames()))
-                .FirstOrDefault(x => x.Id == id);
+        public async Task<Game> Get(int id)
+        {
+            return (await Task.Run(() => LoadGames()))
+            .FirstOrDefault(x => x.Id == id);
+        }
 
         public Task<Game> Get(string id)
         {
@@ -38,7 +41,7 @@
         public async Task<List<Game>> Query(Expression<Func<Game, bool>> predicate)
         {
            // LoadGames just returns a list, so here we cast as queryable so we can use our linq predicate
-           var data = (IQueryable<Game>)(await Task.Run(() => LoadGames()));
+           var data = (await Task.Run(() => LoadGames())).AsQueryable();
            
            return data.Where(predicate).ToList();
         }

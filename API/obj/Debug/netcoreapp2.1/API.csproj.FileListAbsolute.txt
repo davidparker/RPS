@@ -12,3 +12,14 @@ C:\dev\RPS\API\obj\Debug\netcoreapp2.1\API.RazorTargetAssemblyInfo.cache
 C:\dev\RPS\API\bin\Debug\netcoreapp2.1\API.pdb
 C:\dev\RPS\API\obj\Debug\netcoreapp2.1\API.dll
 C:\dev\RPS\API\obj\Debug\netcoreapp2.1\API.pdb
+C:\dev\RPS\API\bin\Debug\netcoreapp2.1\Constants.dll
+C:\dev\RPS\API\bin\Debug\netcoreapp2.1\Database.dll
+C:\dev\RPS\API\bin\Debug\netcoreapp2.1\Interfaces.dll
+C:\dev\RPS\API\bin\Debug\netcoreapp2.1\Models.dll
+C:\dev\RPS\API\bin\Debug\netcoreapp2.1\Services.dll
+C:\dev\RPS\API\bin\Debug\netcoreapp2.1\Interfaces.pdb
+C:\dev\RPS\API\bin\Debug\netcoreapp2.1\Models.pdb
+C:\dev\RPS\API\bin\Debug\netcoreapp2.1\Services.pdb
+C:\dev\RPS\API\bin\Debug\netcoreapp2.1\Constants.pdb
+C:\dev\RPS\API\bin\Debug\netcoreapp2.1\Database.pdb
+C:\dev\RPS\API\obj\Debug\netcoreapp2.1\API.csproj.CopyComplete

@@ -6,7 +6,7 @@
 
     public class Game
     {
-        [JsonProperty("id"), JsonIgnore]
+        [JsonProperty("id")]
         public int Id { get; set; }
 
         [JsonProperty("name"), Required, StringLength(200)]

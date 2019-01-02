@@ -31,7 +31,7 @@
                 Name = requestedGame.Name,
                 Mode = "",
                 Players = new List<Player>(),
-                Round = 1,
+                Round = 0,
                 TotalRounds = requestedGame.NumberOfRounds,
                 RoundWinner = null
             };

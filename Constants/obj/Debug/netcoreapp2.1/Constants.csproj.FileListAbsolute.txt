@@ -1,0 +1,9 @@
+C:\dev\RPS\Constants\bin\Debug\netcoreapp2.1\Constants.deps.json
+C:\dev\RPS\Constants\bin\Debug\netcoreapp2.1\Constants.dll
+C:\dev\RPS\Constants\bin\Debug\netcoreapp2.1\Constants.pdb
+C:\dev\RPS\Constants\obj\Debug\netcoreapp2.1\Constants.csprojAssemblyReference.cache
+C:\dev\RPS\Constants\obj\Debug\netcoreapp2.1\Constants.csproj.CoreCompileInputs.cache
+C:\dev\RPS\Constants\obj\Debug\netcoreapp2.1\Constants.AssemblyInfoInputs.cache
+C:\dev\RPS\Constants\obj\Debug\netcoreapp2.1\Constants.AssemblyInfo.cs
+C:\dev\RPS\Constants\obj\Debug\netcoreapp2.1\Constants.dll
+C:\dev\RPS\Constants\obj\Debug\netcoreapp2.1\Constants.pdb

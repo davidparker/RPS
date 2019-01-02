@@ -1,0 +1,12 @@
+C:\dev\RPS\Models\bin\Debug\netcoreapp2.1\Models.deps.json
+C:\dev\RPS\Models\bin\Debug\netcoreapp2.1\Models.dll
+C:\dev\RPS\Models\bin\Debug\netcoreapp2.1\Models.pdb
+C:\dev\RPS\Models\bin\Debug\netcoreapp2.1\Newtonsoft.Json.dll
+C:\dev\RPS\Models\bin\Debug\netcoreapp2.1\Newtonsoft.Json.xml
+C:\dev\RPS\Models\obj\Debug\netcoreapp2.1\Models.csprojAssemblyReference.cache
+C:\dev\RPS\Models\obj\Debug\netcoreapp2.1\Models.csproj.CoreCompileInputs.cache
+C:\dev\RPS\Models\obj\Debug\netcoreapp2.1\Models.AssemblyInfoInputs.cache
+C:\dev\RPS\Models\obj\Debug\netcoreapp2.1\Models.AssemblyInfo.cs
+C:\dev\RPS\Models\obj\Debug\netcoreapp2.1\Models.csproj.CopyComplete
+C:\dev\RPS\Models\obj\Debug\netcoreapp2.1\Models.dll
+C:\dev\RPS\Models\obj\Debug\netcoreapp2.1\Models.pdb

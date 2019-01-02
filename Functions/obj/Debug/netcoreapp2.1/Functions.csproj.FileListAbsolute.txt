@@ -1,0 +1,9 @@
+C:\dev\RPS\Functions\bin\Debug\netcoreapp2.1\Functions.deps.json
+C:\dev\RPS\Functions\bin\Debug\netcoreapp2.1\Functions.dll
+C:\dev\RPS\Functions\bin\Debug\netcoreapp2.1\Functions.pdb
+C:\dev\RPS\Functions\obj\Debug\netcoreapp2.1\Functions.csprojAssemblyReference.cache
+C:\dev\RPS\Functions\obj\Debug\netcoreapp2.1\Functions.csproj.CoreCompileInputs.cache
+C:\dev\RPS\Functions\obj\Debug\netcoreapp2.1\Functions.AssemblyInfoInputs.cache
+C:\dev\RPS\Functions\obj\Debug\netcoreapp2.1\Functions.AssemblyInfo.cs
+C:\dev\RPS\Functions\obj\Debug\netcoreapp2.1\Functions.dll
+C:\dev\RPS\Functions\obj\Debug\netcoreapp2.1\Functions.pdb

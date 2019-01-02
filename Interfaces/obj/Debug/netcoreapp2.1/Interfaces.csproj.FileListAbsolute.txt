@@ -3,3 +3,12 @@ C:\dev\RPS\Interfaces\bin\Debug\netcoreapp2.1\Interfaces.dll
 C:\dev\RPS\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.csproj.CoreCompileInputs.cache
 C:\dev\RPS\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.AssemblyInfoInputs.cache
 C:\dev\RPS\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.AssemblyInfo.cs
+C:\dev\RPS\Interfaces\bin\Debug\netcoreapp2.1\Interfaces.pdb
+C:\dev\RPS\Interfaces\bin\Debug\netcoreapp2.1\Models.dll
+C:\dev\RPS\Interfaces\bin\Debug\netcoreapp2.1\Newtonsoft.Json.dll
+C:\dev\RPS\Interfaces\bin\Debug\netcoreapp2.1\Models.pdb
+C:\dev\RPS\Interfaces\bin\Debug\netcoreapp2.1\Newtonsoft.Json.xml
+C:\dev\RPS\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.csprojAssemblyReference.cache
+C:\dev\RPS\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.csproj.CopyComplete
+C:\dev\RPS\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.dll
+C:\dev\RPS\Interfaces\obj\Debug\netcoreapp2.1\Interfaces.pdb

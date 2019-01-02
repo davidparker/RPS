@@ -8,7 +8,7 @@
         [JsonProperty("playerName"), Required]
         public string PlayerName { get; set; }
 
-        [JsonProperty("score"), MinLength(1), Range(0, int.MaxValue)]
+        [JsonProperty("score")]
         public int Score { get; set; }
 
         [JsonProperty("lastPlayed")]

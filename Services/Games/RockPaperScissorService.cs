@@ -4,6 +4,7 @@
     using Interfaces.Games;
     using Models;
     using System;
+    using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
 
@@ -31,21 +32,21 @@
             if(player1.ThisTurn == player2.ThisTurn)
             {
                 game.RoundWinner = "DRAW";
-                return game;
+                return SetLastMoves(game, player1, player2);
             }
 
             // if player1 choice beats option == player2.thisTurn.   player 1 wins
             if (currentGame.Pieces.FirstOrDefault(x=> x.Name == player1.ThisTurn).Beats == player2.ThisTurn)
             {
-                game.Players.First().Score++;
-                game.RoundWinner = game.Players.First().PlayerName;
+                player1.Score++;
+                game.RoundWinner = player1.PlayerName;
             } else
             {
-                game.Players.Last().Score++;
-                game.RoundWinner = game.Players.Last().PlayerName;
+                player2.Score++;
+                game.RoundWinner = player2.PlayerName;
             } 
 
-            return game;
+            return SetLastMoves(game, player1, player2);
         }
 
         public async Task<bool> IsCurrentGameAsync(string name)
@@ -59,7 +60,23 @@
             game.Round++;
             game = await CalculateScore(game);
             return game;
+        }
 
+        private CurrentGame SetLastMoves(CurrentGame game, Player player1, Player player2)
+        {
+
+            player1.LastPlayed = player1.ThisTurn;
+            player1.ThisTurn = null;
+
+            player2.LastPlayed = player2.ThisTurn;
+            player2.ThisTurn = null;
+
+            game.Players = new List<Player>()
+            {
+                player1, player2
+            };
+
+            return game;
         }
     }
 }

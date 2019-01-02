@@ -1,6 +1,7 @@
 ﻿namespace API.Controllers
 {
     using Interfaces.Games;
+    using Microsoft.AspNetCore.Cors;
     using Microsoft.AspNetCore.Mvc;
     using Models;
     using Services;
@@ -9,6 +10,7 @@
 
     [Route("api/Game")]
     [ApiController]
+    [EnableCors("cors")]
     public class GameController : ControllerBase
     {
         private readonly GameInfoService _gameInfoService;
