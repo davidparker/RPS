@@ -1,16 +1,20 @@
-﻿using Interfaces.Games;
-using Models;
-using System;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Services.Games
+﻿namespace Services.Games
 {
+    using Interfaces;
+    using Interfaces.Games;
+    using Models;
+    using System;
+    using System.Linq;
+    using System.Threading.Tasks;
+
     public class RockPaperScissorService : IGame
     {
-        private readonly Database.Games _GamesDatabase;
+        private readonly IDatabase<Game> _GamesDatabase;
 
-        public RockPaperScissorService(Database.Games gamesdb) {
+        // be a better way of doing this, but for demo this works
+        private const int GamesId = 1;
+
+        public RockPaperScissorService(IDatabase<Game> gamesdb) {
             _GamesDatabase = gamesdb;
         }
 
@@ -42,6 +46,11 @@ namespace Services.Games
             } 
 
             return game;
+        }
+
+        public async Task<bool> IsCurrentGameAsync(string name)
+        {
+            return string.Equals((await _GamesDatabase.Get(GamesId)).Name, name);
         }
 
         public async Task<CurrentGame> MakeTurn(CurrentGame game)

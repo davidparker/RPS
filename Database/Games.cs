@@ -3,7 +3,6 @@
     using Constants;
     using Interfaces;
     using Models;
-    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -17,10 +16,8 @@
             throw new NotImplementedException();
         }
 
-        public Task<Game> Get(int id)
-        {
-            throw new NotImplementedException();
-        }
+        public async Task<Game> Get(int id) => ((IQueryable<Game>) await Task.Run(() => LoadGames()))
+                .FirstOrDefault(x => x.Id == id);
 
         public Task<Game> Get(string id)
         {
@@ -61,6 +58,7 @@
             {
                 new Game
                 {
+                    Id = 1,
                     Name = "Rock Paper Scissors",
                     NumberOfRounds = 3,
                     Pieces = new List<GamePiece>()
